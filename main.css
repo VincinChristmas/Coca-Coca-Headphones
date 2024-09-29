@@ -102,6 +102,7 @@ header .menu {
 
 header .menu a{
     text-transform: uppercase;
+    margin-right: 1rem;
 }
 
 header .header-buttons {
@@ -118,7 +119,8 @@ header .header-buttons .blue-btn {
     border-radius: 35px;
     text-transform: uppercase;
     position: relative;
-    top: 1.875rem;
+    top: 1.975rem;
+    margin-right: 1rem;
     -webkit-box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
     -moz-box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
     box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
@@ -135,7 +137,7 @@ header .header-buttons .orange-btn {
     border-radius: 35px;
     text-transform: uppercase;
     position: relative;
-    top: 1.875rem;
+    top: 1.975rem;
     -webkit-box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
     -moz-box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
      box-shadow: 11px 17px 17px -7px rgba(0,0,0,0.3);
