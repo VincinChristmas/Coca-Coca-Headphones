@@ -85,17 +85,17 @@ img {
 
 /******THE MAIN CSS****/
 .container {
-  max-width: 1200px;
-  padding: 0 20px;
+  max-width: 75rem;
+  padding: 0 1.25rem;
   margin: 0 auto;
 }
 
 /******THE HEADER****/
 header {
-  padding: 30px;
-  font-size: 14px;
+  padding: 1.875rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 header:after {
@@ -107,24 +107,24 @@ header:after {
 header a {
   color: #792022;
   text-decoration: none;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 header .logo {
   display: inline block;
   float: left;
-  margin-right: 40px;
+  margin-right: 2.5rem;
 }
 
 header .logo img {
-  width: 50px;
+  width: 3.125rem;
 }
 
 header .menu {
   display: inline block;
   float: left;
   position: relative;
-  top: 8px;
+  top: 0.5rem;
 }
 
 header .menu a {
@@ -139,28 +139,28 @@ header .header-buttons {
 header .header-buttons .blue-btn {
   background: #792022;
   color: white;
-  padding: 8px 20px;
+  padding: 0.5rem 1.25rem;
   border-radius: 50px;
   text-transform: uppercase;
   position: relative;
-  top: 10px;
+  top: 0.625rem;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
 }
 
 header .header-buttons .blue-btn .fa-shopping-bag {
-  margin-left: 15px;
+  margin-left: 0.9375rem;
 }
 
 header .header-buttons .orange-btn {
   background: white;
   color: #792022;
-  padding: 8px 20px;
+  padding: 0.5rem 1.25rem;
   border-radius: 50px;
   text-transform: uppercase;
   position: relative;
-  top: 10px;
+  top: 0.625rem;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
@@ -170,7 +170,7 @@ header .header-buttons .orange-btn {
 
 /******THE START OF JUMBO****/
 #top-jumbo {
-  padding: 0 0 300px;
+  padding: 0 0 18.75rem;
   background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
     144deg,
@@ -205,21 +205,21 @@ header .header-buttons .orange-btn {
 }
 
 #top-jumbo .left-side .large-number {
-  font-size: 110px;
-  width: 800px;
+  font-size: 6.875rem;
+  width: 50rem;
   font-weight: 700;
   font-family: "Cedarville Cursive", cursive;
   opacity: 0.1;
   color: #ac1315;
   position: relative;
-  left: -20px;
+  left: -1.25rem;
   z-index: 1;
-  top: 40px;
+  top: 2.5rem;
 }
 
 #top-jumbo .left-side .info-container {
   position: relative;
-  top: -25px;
+  top: -1.5625rem;
 }
 
 #top-jumbo .left-side .info-container p {
@@ -231,25 +231,27 @@ header .header-buttons .orange-btn {
 #top-jumbo .left-side .info-container .email-area .fa-envelope-o {
   font-size: 2rem;
   position: relative;
-  top: 3.5px;
-  margin-left: 2px;
+  top: 0.3rem;
+  left: 0.3rem;
+  margin-left: 0.125rem;
   color: #792022;
 }
 
 #top-jumbo .left-side .info-container .email-area input[type="email"] {
   background: white;
-  padding: 10px;
+  padding: 0.625rem 0.625rem 0.625rem 2rem;
+  position: relative;
   border-radius: 35px;
   border: none;
-  width: 150px;
+  width: 11.5rem;
 }
 
 #top-jumbo .left-side .info-container .email-area {
   background: white;
   border-radius: 35px;
   display: inline-block;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 0.625rem;
+  margin-top: 2.5rem;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
@@ -259,10 +261,10 @@ header .header-buttons .orange-btn {
   background: #792022;
   color: white;
   border-radius: 50px;
-  padding: 10px 25px;
+  padding: 0.625rem 1.5625rem;
   font-size: 1rem;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border: none;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
@@ -284,7 +286,7 @@ header .header-buttons .orange-btn {
 
 #top-jumbo .right-side img {
   width: 100%;
-  margin-left: 105px;
+  margin-left: 6.5625rem;
 }
 
 /******THE END OF JUMBO******/
@@ -293,7 +295,7 @@ header .header-buttons .orange-btn {
 
 #design-by {
   position: relative;
-  top: -210px;
+  top: -13.125rem;
 }
 
 #design-by .design-container {
@@ -306,7 +308,7 @@ header .header-buttons .orange-btn {
 #design-by .design-container .bg-container {
   position: relative;
   overflow: hidden;
-  padding: 45px;
+  padding: 2.8125rem;
   background: #f8f4f4;
 }
 
@@ -318,7 +320,7 @@ header .header-buttons .orange-btn {
 
 #design-by .design-container .bg-img {
   position: absolute;
-  width: 600px;
+  width: 37.5rem;
   z-index: 1;
   opacity: 0.3;
 }
@@ -357,7 +359,7 @@ header .header-buttons .orange-btn {
   list-style: none;
   font-size: 0.8345rem;
   font-weight: 400;
-  margin-bottom: 11px;
+  margin-bottom: 0.6875rem;
   vertical-align: top;
 }
 
@@ -365,24 +367,24 @@ header .header-buttons .orange-btn {
   background: #792022;
   display: inline-block;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.625rem;
   position: relative;
-  top: 5px;
+  top: 0.325rem;
 }
 
 #design-by .design-container .info-section .info-list .circle .fa-check {
   color: white;
   position: absolute;
-  top: 3px;
-  left: 3px;
+  top: 0.1875rem;
+  left: 0.1875rem;
 }
 
 #design-by .design-container .info-section .red-btn {
   background: #792022;
   border-radius: 50px;
-  padding: 10px 65px;
+  padding: 0.625rem 4.0625rem;
   text-decoration: none;
   color: white;
   font-weight: 700;
@@ -404,8 +406,8 @@ header .header-buttons .orange-btn {
   position: absolute;
   top: 40%;
   left: 44.4%;
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   background: white;
   border-radius: 50%;
   -webkit-box-shadow: -0px 0px 25px 1px rgba(0, 0, 0, 0.1);
@@ -417,13 +419,13 @@ header .header-buttons .orange-btn {
   color: #ac1315;
   font-size: 2.5rem;
   position: relative;
-  top: 20px;
-  left: 20px;
+  top: 1.25rem;
+  left: 1.25rem;
 }
 
 #design-by .design-container .icon-section .icon-box {
   width: 50%;
-  height: 209px;
+  height: 13.0625rem;
   display: inline-block;
   float: left;
   text-align: center;
@@ -437,7 +439,7 @@ header .header-buttons .orange-btn {
 #design-by .design-container .icon-section .icon-box .fa {
   font-size: 3rem;
   margin-bottom: 2rem;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /******THE END OF DESIGN BY ******/
@@ -445,7 +447,7 @@ header .header-buttons .orange-btn {
 /******THE START OF COLOR COLLECTION ******/
 #color-collection {
   position: relative;
-  padding: 50px;
+  padding: 3.125rem;
   top: -10rem;
 }
 
@@ -472,7 +474,7 @@ header .header-buttons .orange-btn {
   width: 40%;
   display: inline-block;
   float: left;
-  margin-top: 95px;
+  margin-top: 5.9375rem;
 }
 
 #color-collection .right-side .col-1 {
@@ -493,22 +495,22 @@ header .header-buttons .orange-btn {
 
 #color-collection .right-side .swatch-area {
   background: white;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
   display: inline-block;
   border-radius: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   -webkit-box-shadow: 1px 12px 21px -12px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 1px 12px 21px -12px rgba(0, 0, 0, 0.61);
   box-shadow: 1px 12px 21px -12px rgba(0, 0, 0, 0.61);
 }
 
 #color-collection .right-side .swatch-area .circle {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 50%;
   display: inline-block;
   float: left;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 #color-collection .right-side .swatch-area:after {
@@ -586,9 +588,9 @@ header .header-buttons .orange-btn {
 
 #color-collection .right-side .info-box {
   background: white;
-  padding: 12px 40px;
+  padding: 0.75rem 2.5rem;
   display: inline-block;
-  max-width: 290px;
+  max-width: 18.125rem;
   width: 100%;
   text-align: center;
   -webkit-box-shadow: 1px 12px 21px -12px rgba(0, 0, 0, 0.61);
@@ -597,7 +599,7 @@ header .header-buttons .orange-btn {
 }
 
 #color-collection .right-side .info-box h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #color-collection .right-side .info-box h2 span {
@@ -622,7 +624,7 @@ header .header-buttons .orange-btn {
 #color-collection .right-side .info-box p {
   color: #afaaaa;
   font-size: 0.7rem;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 #color-collection .right-side .info-box a {
@@ -631,21 +633,21 @@ header .header-buttons .orange-btn {
   font-weight: 600;
   text-decoration: none;
   display: block;
-  margin: 20px 0 10px;
+  margin: 1.25rem 0 0.625rem;
 }
 
 #color-collection .right-side .info-box .line {
-  height: 4px;
-  width: 50px;
+  height: 0.25rem;
+  width: 3.125rem;
   background: #ac1315;
   display: inline-block;
 }
 
 #color-collection .right-side .color-slider {
   position: relative;
-  top: -95px;
-  width: 20px;
-  height: 500px;
+  top: -4.9375rem;
+  width: 1.25rem;
+  height: 31.25rem;
   border-radius: 40px;
   background: rgb(136, 57, 60);
   background: -moz-linear-gradient(
@@ -670,14 +672,14 @@ header .header-buttons .orange-btn {
 
 #color-collection .right-side .color-slider .picker {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   border: 10px solid white;
   border-radius: 50%;
   background: #ac1315;
   box-sizing: content-box;
-  top: 120px;
-  left: -10px;
+  top: 7.5rem;
+  left: -0.625rem;
 }
 
 /******THE END OF COLOR COLLECTION******/
@@ -704,9 +706,9 @@ header .header-buttons .orange-btn {
     rgba(137, 57, 60, 1) 100%
   );
   color: white;
-  padding: 150px 0 70px 0;
+  padding: 9.375rem 0 4.375rem 0;
   position: relative;
-  top:-200px;
+  top:-12.5rem;
 }
 
 #blue-print .container:after {
@@ -718,7 +720,7 @@ header .header-buttons .orange-btn {
 #blue-print .left-side {
   float: left;
   width: 40%;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 
 #blue-print .left-side img {
@@ -728,19 +730,19 @@ header .header-buttons .orange-btn {
 #blue-print .right-side {
   float: left;
   width: 60%;
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 
 #blue-print .right-side h1 {
   font-size: 4rem;
   font-weight: 700;
   text-transform: capitalize;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
   line-height: 1.2;
 }
 
 #blue-print .right-side .info-box {
-  padding: 0 0 80px;
+  padding: 0 0 5rem;
 }
 
 #blue-print .right-side .info-box:after {
@@ -755,36 +757,36 @@ header .header-buttons .orange-btn {
 }
 
 #blue-print .right-side .info-box .col-1 .icon-container {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   border: 5px solid white;
   position: relative;
 }
 
 #blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
-  width: 130px;
-  height: 130px;
+  width: 8.125rem;
+  height: 8.125rem;
   border-radius: 50%;
   border: 2px dashed white;
   margin: 0 auto;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0.625rem;
+  left: 0.625rem;
 }
 
 #blue-print .right-side .info-box .col-1 .icon-container .fab {
   font-size: 4.5rem;
   position: absolute;
-  top: 40px;
-  left: 45px;
+  top: 2.5rem;
+  left: 2.8125rem;
 }
 
 #blue-print .right-side .info-box .col-1 .icon-container .fas {
   font-size: 4.5rem;
   position: absolute;
-  top: 40px;
-  left: 50px;
+  top: 2.5rem;
+  left: 3.125rem;
 }
 
 #blue-print .right-side .info-box .col-2 {
@@ -794,18 +796,18 @@ header .header-buttons .orange-btn {
 
 #blue-print .right-side .info-box .col-2 h3 {
   font-size: 2rem;
-  margin-top: 29px;
-  margin-bottom: 30px;
+  margin-top: 1.8125rem;
+  margin-bottom: 1.875rem;
 }
 
 #blue-print .right-side .info-box .col-2 p {
   font-size: 1rem;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 #blue-print .right-side .info-box .col-2 a {
   font-size: 1rem;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
   text-transform: uppercase;
   text-decoration: none;
   color: white;
@@ -816,7 +818,7 @@ header .header-buttons .orange-btn {
 /******THE START OF LATEST ******/
 #latest {
   position: relative;
-  top: -120px;
+  top: -7.5rem;
   
 }
 
@@ -824,7 +826,7 @@ header .header-buttons .orange-btn {
   color: #792022;
   line-height: 1;
   font-size: 4.2rem;
-  max-width: 400px;
+  max-width: 25rem;
   width: 100%;
   float: left;
   display: inline-block;
@@ -834,7 +836,7 @@ header .header-buttons .orange-btn {
   float: right;
   display: inline-block;
   position: relative;
-  top: 35px;
+  top: 2.1875rem;
 }
 
 #latest .head .directions .move-left {
@@ -845,7 +847,7 @@ header .header-buttons .orange-btn {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   float: left;
-  padding: 20px 70px;
+  padding: 1.25rem 4.375rem;
   font-size: 3rem;
   background: #792022;
   color: white;
@@ -860,7 +862,7 @@ header .header-buttons .orange-btn {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   float: right;
-  padding: 20px 70px;
+  padding: 1.25rem 4.375rem;
   font-size: 3rem;
   background: white;
   color: #792022;
@@ -874,11 +876,11 @@ header .header-buttons .orange-btn {
 }
 
 #latest .head {
-  padding: 50px 0;
+  padding: 3.125rem 0;
 }
 
 #latest .body {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 #latest .body:after {
@@ -890,13 +892,13 @@ header .header-buttons .orange-btn {
 #latest .body .column {
   width: 33.33%;
   float: left;
-  padding: 0 15px;
+  padding: 0 0.9375rem;
   text-align: center;
 }
 
 #latest .body .column .bg-square {
-  width: 250px;
-  height: 150px;
+  width: 15.625rem;
+  height: 9.375rem;
   margin: 0 auto;
   background: linear-gradient(
     135deg,
@@ -912,18 +914,18 @@ header .header-buttons .orange-btn {
 #latest .body .column .bg-square img {
   width: 100%;
   position: absolute;
-  top: -60px;
-  left: -20px;
+  top: -3.75rem;
+  left: -1.25rem;
 }
 
 #latest .body .column .bg-square .cart {
-  width: 80px;
-  height: 80px;
+  width: 5rem;
+  height: 5rem;
   border: 10px solid white;
   position: absolute;
   border-radius: 50%;
-  top: -37px;
-  right: -35px;
+  top: -2.3125rem;
+  right: -2.1875rem;
   background: linear-gradient(
     135deg,
     rgba(158, 15, 15, 1) 1%,
@@ -938,15 +940,15 @@ header .header-buttons .orange-btn {
 #latest .body .column .bg-square .cart .fa-solid {
   font-size: 2rem;
   position: relative;
-  top: 15px;
-  right: 1px;
+  top: 0.9375rem;
+  right: 0.0625rem;
 }
 
 #latest .body .column .line {
   width: 20%;
-  height: 2px;
+  height: 0.125rem;
   background: #792022;
-  margin: 40px auto;
+  margin: 2.5rem auto;
   display: inline-block;
 }
 
@@ -970,7 +972,7 @@ input::placeholder {
   width: 30%;
   z-index: 1;
   position: absolute;
-  top: -35px;
+  top: -2.1875rem;
   left: 35%;
   opacity: 0.2;
   transform: rotate(35deg);
@@ -979,7 +981,7 @@ input::placeholder {
 #latest .footer .info-box {
   position: relative;
   z-index: 2;
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 #latest .footer .info-box h2 {
@@ -999,29 +1001,29 @@ input::placeholder {
 #latest .footer .info-box .input-area .fa-envelope-o {
   font-size: 2rem;
   position: relative;
-  top: 9px;
-  margin-left: 2px;
+  top: 0.5625rem;
+  margin-left: 0.125rem;
 }
 
 #latest .footer .info-box .input-area:nth-child(1) {
-  margin-right: 50px;
-  margin-top: 20px;
+  margin-right: 3.125rem;
+  margin-top: 1.25rem;
 }
 
 #latest .footer .info-box .input-area input {
   background: white;
-  padding: 10px;
-  border-radius: 35px;
+  padding: 0.625rem;
+  border-radius: 2.1875rem;
   border: none;
-  width: 120px;
+  width: 7.5rem;
 }
 
 #latest .footer .info-box .input-area {
   background: white;
   border-radius: 35px;
   display: inline-block;
-  padding: 10px;
-  margin-top: 40px;
+  padding: 0.625rem;
+  margin-top: 2.5rem;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
@@ -1031,10 +1033,10 @@ input::placeholder {
   background: #792022;
   color: white;
   border-radius: 50px;
-  padding: 10px 25px;
+  padding: 0.625rem 1.5625rem;
   font-size: 1rem;
   text-transform: uppercase;
-  padding: 10px 30px;
+  padding: 0.625rem 1.875rem;
   border: none;
   -webkit-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 11px 17px 17px -7px rgba(0, 0, 0, 0.3);
@@ -1047,7 +1049,7 @@ input::placeholder {
 footer {
   position: relative;
   background: #792022;
-  padding: 80px 0;
+  padding: 5rem 0;
   text-align: center;
   color: white;
 }
@@ -1057,7 +1059,7 @@ footer h2 {
   text-transform: uppercase;
   font-weight: 600;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 footer h2 span {
@@ -1066,12 +1068,12 @@ footer h2 span {
 }
 
 footer .menu {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 footer .menu li {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
 }
 
 footer .menu li a {
@@ -1085,12 +1087,12 @@ footer .menu li a {
 footer p {
   font-size: 0.8rem;
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 footer .social-media li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 footer .social-media li a {
@@ -1101,5 +1103,424 @@ footer .social-media li a {
 
 /******THE END OF FOOTER******/
 
-@media only screen and (max-width: 375px) {
+
+/******THE START OF HEADER MEDIA QUERY******/
+
+/*****DESKTOP*****/
+@media only screen and (max-width: 1215px) {
+  #top-jumbo .left-side .info-container .email-area { 
+    width: 100%;
+  }
+  
+  #top-jumbo .left-side .info-container .email-area .fa-envelope-o {
+    margin-left: 0;
+    float: left;
+    width: 15%;
+  }
+  
+  #top-jumbo .left-side .info-container .email-area input[type="email"] {
+    width: 50%;
+    float: left;
+  }
+  
+  #top-jumbo .left-side .info-container .email-area button {
+    width: 35%;
+    float: left;
+  }
+
+}
+
+/******TABLET******/
+@media only screen and (max-width: 1023px) {
+  
+#top-jumbo .left-side {
+  width: 50%;
+}
+
+#top-jumbo .left-side .large-number {
+  font-size: 3.875rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  
+}
+
+#top-jumbo .left-side .info-container h1 {
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+#top-jumbo .left-side .info-container .email-area { 
+  width: 100%;
+}
+
+#top-jumbo .left-side .info-container .email-area .fa-envelope-o {
+  margin-left: 0;
+  float: left;
+  width: 15%;
+}
+
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+  width: 50%;
+  float: left;
+}
+
+#top-jumbo .left-side .info-container .email-area button {
+  width: 35%;
+  float: left;
+}
+
+#top-jumbo .right-side {
+  width: 50%;
+}
+
+#top-jumbo .right-side img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+}
+
+#design-by .design-container .icon-section .refresh-circle { 
+  left: 42%;
+}
+
+#color-collection .left-side { 
+  width: 60%;
+  top: -2rem;
+  position: relative;
+}
+
+
+#color-collection .left-side img {
+  width: 100%;
+  margin-left: 2rem;
+  float: none;
+  transform: rotate(30deg);
+}
+
+#color-collection .right-side {
+position: relative;
+top: -6rem;
+width: 40%;
+padding: 4.26rem 0;
+}
+
+#color-collection .right-side .swatch-area {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#color-collection .right-side .swatch-area .circle {
+  width:2.5rem;
+  height: 2.5rem
+ 
+}
+
+#color-collection .right-side .info-box {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#color-collection .right-side .col-1 { 
+  text-align: center;
+  width: 90%;
+}
+
+#color-collection .right-side .col-2 {
+  text-align: center;
+  width: 10%;
+  padding: 0 0.7rem;
+}
+
+#color-collection .right-side .color-slider { 
+  height: 27rem;
+}
+
+#blue-print .left-side {
+  width: 40%;
+}
+
+#blue-print .right-side {
+  width: 60%;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+  width: 6.125rem;
+  height: 6.125rem;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .fab {
+  font-size: 3.5rem;
+  position: absolute;
+  top: 1.9rem;
+  left: 2.125rem;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .fas {
+  font-size: 3.5rem;
+  position: absolute;
+  top: 1.9rem;
+  left: 2.425rem;
+}
+
+#latest .body .column {
+  width: 50%;
+  margin-bottom: 9.375rem;
+}
+
+
+
+}
+
+
+
+/******MOBILE******/
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    margin-bottom: 0
+  }
+
+  header .logo {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header .logo img {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  header .menu {
+    display: block;
+    width: 100%;
+  }
+
+  header .menu a {
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+  }
+
+  header .header-buttons {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+#top-jumbo .left-side {
+  width: 100%;
+}
+
+#top-jumbo .left-side .large-number {
+  font-size: 3.875rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  
+}
+
+#top-jumbo .left-side .info-container h1 {
+  display: block;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+#top-jumbo .left-side .info-container .email-area { 
+  width: 100%;
+}
+
+#top-jumbo .left-side .info-container .email-area .fa-envelope-o {
+  margin-left: 0;
+  float: left;
+  width: 15%;
+}
+
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+  width: 50%;
+  float: left;
+}
+
+#top-jumbo .left-side .info-container .email-area button {
+  width: 35%;
+  float: left;
+}
+
+#top-jumbo .right-side {
+  width: 100%;
+}
+
+#top-jumbo .right-side img {
+  display: block;
+  margin: 0 auto;
+}
+
+#design-by .design-container .info-section {
+  width: 100%;
+}
+
+#design-by .design-container .bg-container {
+  padding: 1.8125rem;
+}
+
+#design-by .design-container .icon-section {
+  width: 100%;
+}
+
+#design-by .design-container .icon-section .refresh-circle { 
+  display: none;
+}
+
+#design-by .design-container .info-section .info-list li { 
+  line-height: 2;
+}
+
+
+
+#color-collection .left-side { 
+  width: 100%;
+  top: -2rem;
+  position: relative;
+}
+
+
+#color-collection .left-side img {
+  width: 100%;
+  margin-left: 2rem;
+  float: none;
+  transform: rotate(30deg);
+}
+
+#color-collection .right-side {
+position: relative;
+top: -6rem;
+width: 100%;
+padding: 4.26rem 0;
+}
+
+#color-collection .right-side .swatch-area {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#color-collection .right-side .swatch-area .circle {
+  width: 2rem;
+  height: 2rem;
+ 
+}
+
+#color-collection .right-side .info-box {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+#color-collection .right-side .col-1 { 
+  text-align: center;
+  width: 80%;
+}
+
+#color-collection .right-side .col-2 {
+  text-align: center;
+  width: 20%;
+  padding: 0 0.7rem;
+}
+
+#color-collection .right-side .color-slider { 
+  height: 27rem;
+}
+
+#blue-print {
+  padding: 2rem 0;
+  top: -15rem;
+  position: relative;
+}
+
+#blue-print img {
+  display: none;
+}
+
+#blue-print .left-side {
+  width: 100%;
+}
+
+#blue-print .right-side {
+  width: 100%;
+}
+
+#blue-print .right-side h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-right: 4.5rem;
+}
+
+#blue-print .right-side .info-box .col-2 h3 {
+  font-size: 1.6rem;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: relative;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .fab {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .fas {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1.7rem;
+}
+
+
+#latest .head h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+}
+
+#latest .head .directions {
+  display: none;
+}
+
+#latest .body .column {
+  width: 100%;
+  margin-bottom: 9.375rem;
+}
+
+
+
 }
